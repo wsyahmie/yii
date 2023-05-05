@@ -52,6 +52,8 @@ AppAsset::register($this);
         'items' => $menuItems,
         'encodeLabels' => false,
     ]);
+    
+    NavBar::end();
     ?>
 </header>
 
